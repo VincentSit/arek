@@ -47,9 +47,9 @@ open class ArekNotifications: ArekBasePermission, ArekPermissionProtocol {
                     return completion(.notDetermined)
                 case .denied:
                     return completion(.denied)
-                case .authorized:
+                case .authorized, .provisional:
                     return completion(.authorized)
-                }
+              }
             }
         } else if #available(iOS 9.0, *) {
             if let types = UIApplication.shared.currentUserNotificationSettings?.types {
