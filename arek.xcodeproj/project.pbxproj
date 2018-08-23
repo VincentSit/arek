@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6BB101BA1E7044BA000CA36F /* arek.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB101B81E7044BA000CA36F /* arek.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BB101E31E70450B000CA36F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6BB101C11E70450B000CA36F /* .gitkeep */; };
-		6BB101E41E70450B000CA36F /* arek.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB101C21E70450B000CA36F /* arek.png */; };
-		6BB101E51E70450B000CA36F /* arek_contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB101C31E70450B000CA36F /* arek_contacts.png */; };
-		6BB101E61E70450B000CA36F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6BB101C51E70450B000CA36F /* .gitkeep */; };
 		6BB101E71E70450B000CA36F /* Arek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB101C71E70450B000CA36F /* Arek.swift */; };
 		6BB101E81E70450B000CA36F /* ArekConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB101C91E70450B000CA36F /* ArekConfiguration.swift */; };
 		6BB101E91E70450B000CA36F /* ArekLocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB101CA1E70450B000CA36F /* ArekLocalizationManager.swift */; };
@@ -43,9 +39,6 @@
 		6BB101B51E7044BA000CA36F /* arek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = arek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB101B81E7044BA000CA36F /* arek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arek.h; sourceTree = "<group>"; };
 		6BB101B91E7044BA000CA36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BB101C11E70450B000CA36F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		6BB101C21E70450B000CA36F /* arek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arek.png; sourceTree = "<group>"; };
-		6BB101C31E70450B000CA36F /* arek_contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arek_contacts.png; sourceTree = "<group>"; };
 		6BB101C51E70450B000CA36F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		6BB101C71E70450B000CA36F /* Arek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arek.swift; sourceTree = "<group>"; };
 		6BB101C91E70450B000CA36F /* ArekConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekConfiguration.swift; sourceTree = "<group>"; };
@@ -104,24 +97,12 @@
 		6BB101B71E7044BA000CA36F /* arek */ = {
 			isa = PBXGroup;
 			children = (
-				6BB101C01E70450B000CA36F /* Assets */,
 				6BB101C41E70450B000CA36F /* Classes */,
 				6BB101B81E7044BA000CA36F /* arek.h */,
 				6BB101B91E7044BA000CA36F /* Info.plist */,
 			);
 			path = arek;
 			sourceTree = "<group>";
-		};
-		6BB101C01E70450B000CA36F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				6BB101C11E70450B000CA36F /* .gitkeep */,
-				6BB101C21E70450B000CA36F /* arek.png */,
-				6BB101C31E70450B000CA36F /* arek_contacts.png */,
-			);
-			name = Assets;
-			path = code/Assets;
-			sourceTree = SOURCE_ROOT;
 		};
 		6BB101C41E70450B000CA36F /* Classes */ = {
 			isa = PBXGroup;
@@ -266,10 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BB101E51E70450B000CA36F /* arek_contacts.png in Resources */,
-				6BB101E41E70450B000CA36F /* arek.png in Resources */,
-				6BB101E31E70450B000CA36F /* .gitkeep in Resources */,
-				6BB101E61E70450B000CA36F /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
