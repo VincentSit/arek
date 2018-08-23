@@ -36,6 +36,7 @@
 		6BB101FC1E70450B000CA36F /* ArekBaseLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB101E01E70450B000CA36F /* ArekBaseLocationDelegate.swift */; };
 		6BB101FD1E70450B000CA36F /* ArekLocationAlways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB101E11E70450B000CA36F /* ArekLocationAlways.swift */; };
 		6BB101FE1E70450B000CA36F /* ArekLocationWhenInUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB101E21E70450B000CA36F /* ArekLocationWhenInUse.swift */; };
+		9389F623212F0FE900F55E2E /* ArekPopupStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389F622212F0FE900F55E2E /* ArekPopupStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +53,7 @@
 		6BB101CB1E70450B000CA36F /* ArekPermissionFrequency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekPermissionFrequency.swift; sourceTree = "<group>"; };
 		6BB101CC1E70450B000CA36F /* ArekPermissionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekPermissionStatus.swift; sourceTree = "<group>"; };
 		6BB101CD1E70450B000CA36F /* ArekPopupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekPopupData.swift; sourceTree = "<group>"; };
-		6BB101CF1E70450B000CA36F /* ArekCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekCamera.swift; sourceTree = "<group>"; };
+		6BB101CF1E70450B000CA36F /* ArekCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ArekCamera.swift; sourceTree = "<group>"; tabWidth = 4; };
 		6BB101D01E70450B000CA36F /* ArekCloudKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekCloudKit.swift; sourceTree = "<group>"; };
 		6BB101D11E70450B000CA36F /* ArekContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekContacts.swift; sourceTree = "<group>"; };
 		6BB101D21E70450B000CA36F /* ArekEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekEvents.swift; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		6BB101E01E70450B000CA36F /* ArekBaseLocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekBaseLocationDelegate.swift; sourceTree = "<group>"; };
 		6BB101E11E70450B000CA36F /* ArekLocationAlways.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekLocationAlways.swift; sourceTree = "<group>"; };
 		6BB101E21E70450B000CA36F /* ArekLocationWhenInUse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekLocationWhenInUse.swift; sourceTree = "<group>"; };
+		9389F622212F0FE900F55E2E /* ArekPopupStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArekPopupStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		6BB101C81E70450B000CA36F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				9389F622212F0FE900F55E2E /* ArekPopupStyle.swift */,
 				6BB101C91E70450B000CA36F /* ArekConfiguration.swift */,
 				6BB101CA1E70450B000CA36F /* ArekLocalizationManager.swift */,
 				6BB101CB1E70450B000CA36F /* ArekPermissionFrequency.swift */,
@@ -293,6 +296,7 @@
 				6BB101F41E70450B000CA36F /* ArekMotion.swift in Sources */,
 				6BB101F51E70450B000CA36F /* ArekNotifications.swift in Sources */,
 				6BB101FD1E70450B000CA36F /* ArekLocationAlways.swift in Sources */,
+				9389F623212F0FE900F55E2E /* ArekPopupStyle.swift in Sources */,
 				6BB101FE1E70450B000CA36F /* ArekLocationWhenInUse.swift in Sources */,
 				6BB101F31E70450B000CA36F /* ArekMicrophone.swift in Sources */,
 				6BB101EB1E70450B000CA36F /* ArekPermissionStatus.swift in Sources */,
@@ -422,7 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ennioma.arek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -440,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ennioma.arek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
